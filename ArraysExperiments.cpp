@@ -39,7 +39,11 @@ int main(void)
     Er1Print2dAr(ar2, Xsize);
     Er2Print2dAr(ar2, Xsize);
 
-    int trAr[] = {1, 1, 1, 1, 2, 1, 1, 3, 3, 1, 1, 4, 6, 4, 1};
+    int trAr[] = {1,
+                  1, 1,
+                  1, 2, 1,
+                  1, 3, 3, 1,
+                  1, 4, 6, 4, 1};
     size_t arSize = sizeof(trAr) / sizeof(trAr[0]);
 
     PrintTrAr(trAr, FindSize(arSize), arSize);
